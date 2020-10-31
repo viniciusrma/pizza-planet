@@ -1,5 +1,5 @@
 <h1  align="center">
-  <img src="https://ibb.co/FK82MV0" alt="logo" border="0">
+  <img src="public/pizzaplanet2.jpg" alt="logo" border="0">
 </h1>
   
 ## 📍 Index
