@@ -1,0 +1,58 @@
+{
+  "appetizer": [
+    {
+      "name": "breadstick",
+      "description": "Crunchy pizza edge covered with cheese.",
+      "price": 25
+    },
+    {
+      "name": "fries",
+      "description": "Regular potato fried in oil.",
+      "price": 25
+    }
+  ],
+  "pizza": [
+    {
+      "name": "cheese",
+      "description": "Mozzarella and basil.",
+      "price": 17
+    },
+    {
+      "name": "marguerita",
+      "description": "Mozzarella, tomato and basil.",
+      "price": 18
+    },
+    {
+      "name": "pepperoni",
+      "description": "Mozzarella and pepperoni.",
+      "price": 20
+    },
+    {
+      "name": "four cheese",
+      "description": "Blue cheese, parmesan, fresh ricotta and mozzarella.",
+      "price": 20
+    },
+    {
+      "name": "sausage",
+      "description": "Mozzarella and smoked sausage.",
+      "price": 20
+    },
+    {
+      "name": "vegan",
+      "description": "Eggplant and Garlic.",
+      "price": 20
+    }
+  ],
+  "dessert": [
+    {
+      "name": "hot fudge",
+      "description": "Hot brownie.",
+      "price": 10
+    },
+    {
+      "name": "banana split",
+      "description": "Ice Cream, Chantilly and Banana.",
+      "price": 15
+    }
+  ]
+}
