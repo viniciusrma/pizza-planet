@@ -1,0 +1,54 @@
+/* Universal Styles */
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Reusable Component - Image Container */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* App Styles */
+
+.App {
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
+
+.App-logo {
+  height: 100vmin;
+  pointer-events: none;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}

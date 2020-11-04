@@ -1,0 +1,43 @@
+.Navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../../utils/Background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 37rem;
+  align-content: center;
+  align-items: center;
+}
+
+a {
+  align-self: center;  
+}
+
+.Navigation .Button {
+  position: absolute;
+  width: 250px;
+  text-align: center;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 8px;
+  padding: .72rem 1.7rem;
+  background-color: #E00000;
+  color: #ffffff;
+  font: 15px Poppins bold;
+  font-weight: 600;
+  font-family: Poppins, 'Work Sans', sans-serif;
+  font-weight: bolder;
+  transition: background-color .3s;
+}
+
+.Navigation .Button:hover {
+  cursor: pointer;
+  background-color: #EC0000;
+}
+
+@media only screen and (max-width: 560px) {
+  .Navigation {
+    background-image: url('../../utils/Background-mobile.png');
+  }
+}
