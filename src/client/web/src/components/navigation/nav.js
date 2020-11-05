@@ -4,8 +4,8 @@ import './nav.css';
 export default function Navigation(props) {
   return (
     <div className="Navigation">
-      <a href="#Menu">
-      <input className="Button" type="button" value="Go to the Menu"/>
+      <a href="#Menu" className="Button" type="button">
+      Go to the Menu
       </a>
     </div>
   );

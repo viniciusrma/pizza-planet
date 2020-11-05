@@ -4,20 +4,27 @@ import './counter.css'
 class Counter extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { count: 0 }
+    this.state = { count: 0 }; //Initial value
   };
-  onclick(type) {
-    this.setState(prevState => {
-      return { count: type === 'add' ? prevState.count + 1 : prevState.count - 1 }
-    });
+
+  //Decrease by 1 if count is positive. The value should not be less than zero.
+  decrement() {
+    if (this.state.count > 0) {
+      this.setState({ count: this.state.count - 1 });
+    };
   };
+
+  //Increment by 1
+  increment() {
+    this.setState({ count: this.state.count + 1 });
+  };
+
   render() {
     return (
-      <div>
-        <div />
-        <input type='button' className="sub" onClick={this.onclick.bind(this, 'sub')} value="-" />
-        <label for="counter" className="counter">{this.state.count}</label>
-        <input type='button' className="add" onClick={this.onclick.bind(this, 'add')} value="+" />
+      <div className="quantity">
+        <input type='button' className="sub" onClick={this.decrement.bind(this)} value="-" hover />
+        <div for="counter" className="counter">{this.state.count}</div>
+        <input type='button' className="add" onClick={this.increment.bind(this)} value="+" />
       </div>
     )
   }

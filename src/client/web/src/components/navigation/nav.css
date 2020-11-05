@@ -6,12 +6,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 37rem;
+  text-align: center;
   align-content: center;
   align-items: center;
-}
-
-a {
-  align-self: center;  
 }
 
 .Navigation .Button {
@@ -29,6 +26,8 @@ a {
   font-family: Poppins, 'Work Sans', sans-serif;
   font-weight: bolder;
   transition: background-color .3s;
+  align-self: center;
+  text-decoration: none;
 }
 
 .Navigation .Button:hover {

@@ -1,31 +1,56 @@
-.Food-quantity .Food-button1 {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  background: #FFFFFF;
-  border: 1px solid #A8A8A8;
-  box-sizing: border-box;
-  border-radius: 5px 0px 0px 5px;
-  font: 'Poppins' bold 1.25rem/30px #E3001B;
+.quantity {
+  position: absolute;
+  width: 75px;
+  height: 25px;
+  left: 220px;
+  top: 46px;
+  display: inline;
 }
 
-.Food-quantity .Counter {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  background: #FFFFFF;
+.sub {
+  height: 25px;
+  left: 225px;
+  top: 46px;
   border: none;
   box-sizing: border-box;
-  font: 'Poppins' bold 1.25rem/30px #111010;
+  border-radius: 5px 0px 0px 5px;
+  float: left;
+  width: 25px;
+  overflow: hidden;
+  background-color: #E00000;
+  color: #ffffff;
+  font-weight: 700;
 }
 
-.Food-quantity .Food-button2 {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  background: #FFFFFF;
-  border: 1px solid #A8A8A8;
+.counter {
+  width: 25px;
+  height: 25px;
+  left: 250px;
+  top: 46px;
+  border: 1px solid #E00000;
+  box-sizing: border-box;
+  float: left;
+  width: 25px;
+  overflow: hidden;
+  font-size: 18px;
+  background-color: #ffffff;
+}
+
+.add {
+  width: 25px;
+  height: 25px;
+  left: 275px;
+  top: 46px;
+  border: none;
   box-sizing: border-box;
   border-radius: 0px 5px 5px 0px;
-  font: 'Poppins' bold 1.25rem/30px #E3001B
+  float: left;
+  overflow: hidden;
+  background-color: #E00000;
+  color: #ffffff;
+}
+
+.sub:hover, .add:hover {
+  cursor: pointer;
+  background-color: #EC0000;
 }

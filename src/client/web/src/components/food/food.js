@@ -20,10 +20,11 @@ export default function Food(props) {
           <div>
             <h2>{foodDescription.flavour}</h2>
             <p>{foodDescription.description}</p>
-            <p>{foodDescription.price}</p>
+            <p>${foodDescription.price}</p>
           </div>
           <div className="Food-quantity">
             <Counter />
+            <input type='submit' className="submit" value="Add to cart"/>
           </div>
         </div>
       </div>
