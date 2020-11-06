@@ -1,11 +1,13 @@
 {
   "appetizer": [
     {
+      "img":"",
       "name": "breadstick",
       "description": "Crunchy pizza edge covered with cheese.",
       "price": 25
     },
     {
+      "img":"",
       "name": "fries",
       "description": "Regular potato fried in oil.",
       "price": 25
@@ -13,31 +15,37 @@
   ],
   "pizza": [
     {
+      "img":"",
       "name": "cheese",
       "description": "Mozzarella and basil.",
       "price": 17
     },
     {
+      "img":"",
       "name": "marguerita",
       "description": "Mozzarella, tomato and basil.",
       "price": 18
     },
     {
+      "img":"",
       "name": "pepperoni",
       "description": "Mozzarella and pepperoni.",
       "price": 20
     },
     {
+      "img":"",
       "name": "four cheese",
       "description": "Blue cheese, parmesan, fresh ricotta and mozzarella.",
       "price": 20
     },
     {
+      "img":"",
       "name": "sausage",
       "description": "Mozzarella and smoked sausage.",
       "price": 20
     },
     {
+      "img":"",
       "name": "vegan",
       "description": "Eggplant and Garlic.",
       "price": 20
@@ -45,11 +53,13 @@
   ],
   "dessert": [
     {
+      "img":"",
       "name": "hot fudge",
       "description": "Hot brownie.",
       "price": 10
     },
     {
+      "img":"",
       "name": "banana split",
       "description": "Ice Cream, Chantilly and Banana.",
       "price": 15

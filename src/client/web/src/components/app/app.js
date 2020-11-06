@@ -3,6 +3,7 @@ import './app.css';
 import Menu from '../menu/menu';
 import Navigation from '../navigation/nav';
 import Header from '../header/header';
+import Cart from '../cart/cart';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Navigation/>
       <Menu/>
+      <Cart/>
     </div>
   );
 ;}

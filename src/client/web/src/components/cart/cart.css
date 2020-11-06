@@ -1,0 +1,64 @@
+.Cart {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  background: #EC0000;
+  height: 1000px;
+}
+
+.CartImg {
+  left: 350px;
+  top: 411px;
+  position: absolute;
+}
+
+label {
+  position: absolute;
+  width: 227px;
+  height: 75px;
+  left: 1100px;;
+  top: 427px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 75px;
+  color: #FFFFFF;
+}
+
+.InputAddress {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 1100px;
+  top: 523px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  font-size: 22px;
+  border: none;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.OrderButton {
+  position: absolute;
+  width: 300px;
+  height: 80px;
+  left: 1100px;;
+  top: 600px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.OrderButton:hover {
+  cursor: pointer;
+}
