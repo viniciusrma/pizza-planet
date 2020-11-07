@@ -1,8 +1,5 @@
 import React from 'react';
 import './cart.css';
-import { Divider, TextField } from '@material-ui/core';
-
-const cart = [];
 
 class Cart extends React.Component {
   constructor(props) {
