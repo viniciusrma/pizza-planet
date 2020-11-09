@@ -25,18 +25,24 @@ In total, there are four parts on this project:
 
 Front-end part: 
 
-- Pizzeria control screen ✅
-- User screen - Web and Mobile ✅
-- Deliveryman screen - Mobile ✅
- 
+- Pizzeria control screen 🚧
+- Order Interface (Menu) - Responsive ✅
+- Deliveryman screen  🚧
+  
 Back-end part:
 
-- API with NodeJS ✅
-- Database with MongoDB ✅
+- API with NodeJS, ExpressJS & Typescript ✅
+- Database with MongoDB(Mongoose) ✅
+
+Mobile Part:
+
+- Pizzeria control screen 🚧
+- Order Interface (Menu) 🚧
+- Deliveryman screen  🚧
 
 Test:
 
-- Insomnia ✅
+- Postman  🚧
 
 <a  id="applied-technologies"></a>
 ## 💻 Applied technologies
@@ -47,7 +53,10 @@ The project was developed using the following technologies:
 - [CSS](https://www.w3schools.com/css/)
 - [React Native](https://reactnative.dev/)
 - [Node JS](https://nodejs.org/en/)
-- [Insomnia](https://insomnia.rest/)
+- [Express JS](https://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Postman](https://www.postman.com/)
 
 
 <a  id="how-to-use"></a>
@@ -73,7 +82,7 @@ $ git clone https://github.com/viniciusrma/pizza-planet-
 
 ```sh
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -81,11 +90,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-npm install -g create-react-app
 
 ```
 
