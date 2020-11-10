@@ -22,6 +22,15 @@ var MenuService = /** @class */ (function () {
     MenuService.prototype.delete = function (_id) {
         return menuRepository_1.default.findByIdAndRemove(_id);
     };
+    MenuService.prototype.createDish = function (dish) {
+        return menuRepository_1.default.create(dish);
+    };
+    MenuService.prototype.updateDish = function (_id) {
+        return menuRepository_1.default.create(_id);
+    };
+    MenuService.prototype.deleteDish = function (_id) {
+        return menuRepository_1.default.findByIdAndRemove(_id);
+    };
     return MenuService;
 }());
 ;

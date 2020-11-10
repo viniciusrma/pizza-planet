@@ -43,6 +43,27 @@ var menuController = /** @class */ (function () {
             .then(function () { return helper_1.default.sendResponse(res, http_status_1.default.OK, 'Order successfully deleted'); })
             .catch(function (error) { return console.error.bind(console, "Error " + error); });
     };
+    menuController.prototype.createDish = function (req, res) {
+        var dish = req.body;
+        menuServices_1.default.create(dish)
+            .then(function (menu) { return helper_1.default.sendResponse(res, http_status_1.default.OK, "Dish successfully registed"); })
+            .catch(function (error) { return console.error.bind(console, "Error " + error); });
+    };
+    ;
+    menuController.prototype.updateDish = function (req, res) {
+        var _id = req.params.id;
+        var dish = req.body;
+        menuServices_1.default.update(_id, dish)
+            .then(function (menu) { return helper_1.default.sendResponse(res, http_status_1.default.OK, "Dish successfully updated"); })
+            .catch(function (error) { return console.error.bind(console, "Error " + error); });
+    };
+    ;
+    menuController.prototype.deleteDish = function (req, res) {
+        var _id = req.params.id;
+        menuServices_1.default.delete(_id)
+            .then(function () { return helper_1.default.sendResponse(res, http_status_1.default.OK, 'Dish successfully deleted'); })
+            .catch(function (error) { return console.error.bind(console, "Error " + error); });
+    };
     return menuController;
 }());
 ;

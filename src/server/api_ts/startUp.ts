@@ -31,8 +31,14 @@ class StartUp {
     this.app.route("/api/v1/menu").post(menuController.create);
     this.app.route("/api/v1/menu/:id").put(menuController.update);
     this.app.route("/api/v1/menu/:id").delete(menuController.delete);
-  };
-  
+
+    this.app.route("/api/v1/dishes").get(menuController.get);
+    this.app.route("/api/v1/dishes/:id").get(menuController.getById);
+    this.app.route("/api/v1/dishes").post(menuController.createDish);
+    this.app.route("/api/v1/dishes/:id").put(menuController.updateDish);
+    this.app.route("/api/v1/dishes/:id").delete(menuController.deleteDish);
+
+  }; 
 };
 
 export default new StartUp();

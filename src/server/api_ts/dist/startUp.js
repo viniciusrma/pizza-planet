@@ -30,6 +30,11 @@ var StartUp = /** @class */ (function () {
         this.app.route("/api/v1/menu").post(menuController_1.default.create);
         this.app.route("/api/v1/menu/:id").put(menuController_1.default.update);
         this.app.route("/api/v1/menu/:id").delete(menuController_1.default.delete);
+        this.app.route("/api/v1/dishes").get(menuController_1.default.get);
+        this.app.route("/api/v1/dishes/:id").get(menuController_1.default.getById);
+        this.app.route("/api/v1/dishes").post(menuController_1.default.createDish);
+        this.app.route("/api/v1/dishes/:id").put(menuController_1.default.updateDish);
+        this.app.route("/api/v1/dishes/:id").delete(menuController_1.default.deleteDish);
     };
     ;
     return StartUp;

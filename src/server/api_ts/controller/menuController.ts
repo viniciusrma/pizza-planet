@@ -40,6 +40,29 @@ class menuController {
     .catch(error => console.error.bind(console, `Error ${error}`));
   }
 
+  createDish(req, res) {
+    let dish = req.body;
+    menuService.create(dish)
+    .then(menu => Helper.sendResponse(res, HttpStatus.OK, "Dish successfully registed"))
+    .catch(error => console.error.bind(console, `Error ${error}`));
+  };
+
+  updateDish(req, res) {
+    const _id = req.params.id;
+    let dish = req.body;
+
+    menuService.update(_id, dish)
+    .then(menu => Helper.sendResponse(res, HttpStatus.OK, `Dish successfully updated`))
+    .catch(error => console.error.bind(console, `Error ${error}`));
+  };
+
+  deleteDish(req , res) {
+    const _id = req.params.id;
+    menuService.delete(_id)
+    .then( () => Helper.sendResponse(res, HttpStatus.OK, 'Dish successfully deleted'))
+    .catch(error => console.error.bind(console, `Error ${error}`));
+  }
+
 };
 
 export default new menuController();
