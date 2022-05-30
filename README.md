@@ -51,7 +51,6 @@ The project was developed using the following technologies:
 
 - [React](https://reactjs.org/)
 - [CSS](https://www.w3schools.com/css/)
-- [React Native](https://reactnative.dev/)
 - [Node JS](https://nodejs.org/en/)
 - [Express JS](https://expressjs.com/)
 - [MongoDB](https://www.mongodb.com/)
